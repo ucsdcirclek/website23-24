@@ -1,15 +1,12 @@
 import './Main.css';
-import ckilogo from "./images/ckilogo.png";
 import grouppic from "./images/group-photo-cki.jpeg"
 import masthead from "./images/White+Masthead.png"
+import Header from './Header';
 
 function Main() {
   return (
     <div className="Main">
-      <header className="Main-header">
-        <img class = "cki-logo" src = {ckilogo} alt = "ckilogo"/>
-        <p class = "welcome-message">Welcome to Circle K at UCSD!</p>
-      </header>
+      <Header></Header>
       <container class = "group-container">
         <img class = "group-pic" src = {grouppic} alt = "group-pic"/>
       </container>
@@ -20,7 +17,7 @@ function Main() {
         </p>
       </div>
       <div class = "calendar">
-        <p> Upcoming Events Calendar here (up to 2 weeks)</p>
+        <p> Upcoming Events Calendar her! (up to 2 weeks)</p>
       </div>
       <div class = "join-info">
         <div class = "join">

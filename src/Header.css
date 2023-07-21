@@ -1,0 +1,78 @@
+.main {
+    justify-content: space-between;
+    position: fixed;
+    background: #27285C;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex: 1;
+    width: 100%; 
+}
+
+.cki-logo {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 350px;
+  }
+
+.about{
+    position:relative;
+    display: inline-block;
+}
+
+.about-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 28px;
+    margin-left: 125px;
+}
+ 
+.about-menu a{
+    display: block;
+    margin-left: 125px;
+}
+
+.about-menu{
+    display:none;
+}
+
+.about:hover .about-menu{
+    display:block;
+}
+
+.calendar-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 28px;
+    margin-left: 125px;
+}
+
+.resources-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 28px;
+    margin-left: 125px;
+}
+
+
+.resources-menu a{
+    display: block;
+    margin-left: 125px;
+}
+
+.resources:hover .resources-menu{
+    display:block;
+}
+
+.resources-menu{
+    display:none;
+}
+
+.welcome-message {
+    font-size: 32px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

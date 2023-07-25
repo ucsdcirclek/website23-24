@@ -1,12 +1,10 @@
-import './Main.css';
+import './Home.css';
 import grouppic from "./images/group-photo-cki.jpeg"
 import masthead from "./images/White+Masthead.png"
-import Header from './Header';
 
-function Main() {
+function Home() {
   return (
-    <div className="Main">
-      <Header></Header>
+    <div className="Home">
       <container class = "group-container">
         <img class = "group-pic" src = {grouppic} alt = "group-pic"/>
       </container>
@@ -34,4 +32,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Home;

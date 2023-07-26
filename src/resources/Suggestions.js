@@ -1,6 +1,6 @@
 import "./Suggestions.css"
 function Suggestions() {
-    return <h1 class = "suggestions"> Suggestions!</h1>;
+    return <p className = "suggestions"> Suggestions!</p>;
   }
   
   export default  Suggestions;

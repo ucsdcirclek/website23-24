@@ -1,6 +1,6 @@
 import "./PhotoGallery.css"
 function PhotoGallery() {
-    return <h1 class = "gallery"> Photo Gallery!</h1>;
+    return <p className = "gallery"> Photo Gallery!</p>;
   }
   
   export default PhotoGallery;

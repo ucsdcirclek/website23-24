@@ -15,21 +15,19 @@ function App() {
   return (
     <div className = "app">
         <Navbar/>
-        <div className="container">
-            <Routes>
-                <Route path="/" element={<Home/>}></Route>
-                <Route path="/join" element={<Join />}></Route>
-                <Route path="/gallery" element={<PhotoGallery />}></Route>
-                <Route path="/happy_sad_change" element={<HSChange />}></Route>
-                <Route path="/suggestions" element={<Suggestions />}></Route>
-                <Route path="/big_little" element={<BigLittle />}></Route>
-                <Route path="/board" element={<Board />}></Route>
-                <Route path="/fams" element={<Fams />}></Route>
-                <Route path="/mission_values" element={<MissionValues />}></Route>
-                <Route path="/calendar" element={<Calendar/>}></Route>
-            </Routes>
-        </div>
-    </div>
+           <Routes>
+              <Route path="/" element={<Home/>}></Route>
+              <Route path="/join" element={<Join />}></Route>
+              <Route path="/gallery" element={<PhotoGallery />}></Route>
+              <Route path="/happy_sad_change" element={<HSChange />}></Route>
+              <Route path="/suggestions" element={<Suggestions />}></Route>
+              <Route path="/big_little" element={<BigLittle />}></Route>
+              <Route path="/board" element={<Board />}></Route>
+              <Route path="/fams" element={<Fams />}></Route>
+              <Route path="/mission_values" element={<MissionValues />}></Route>
+              <Route path="/calendar" element={<Calendar/>}></Route>
+          </Routes>
+      </div>
   );
 }
 

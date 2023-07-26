@@ -26,7 +26,7 @@ function Navbar() {
             <Link to="/suggestions">Suggestions</Link>
           </div>
         </div>
-        <button className="login-btn">Login</button>
+        <Link to="/login" className="login-btn">Login</Link>
     </div>
   );
 }

@@ -1,6 +1,11 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Container} from "react-bootstrap"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faFacebook, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import './Home.css';
 import grouppic from "./images/group-photo-cki.jpeg"
 import masthead from "./images/White+Masthead.png"
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -15,18 +20,31 @@ function Home() {
         </p>
       </div>
       <div className = "calendar">
-        <p> Upcoming Events Calendar her! (up to 2 weeks)</p>
+        <p> Upcoming Events Calendar here! (up to 2 weeks)</p>
       </div>
       <div className = "join-info">
         <div className = "join">
           <p> Want to join?</p>
-          <button className = "join-button"> Click here!</button>
+          <Link to="/join" className = "button">Click here!</Link>
         </div>
         <div className = "info">
           <p> Want to learn more about Circle K International?</p>
-          <button className = "join-button"> Click here!</button>
+          <Link to="/mission_values" className = "button">Click here!</Link>
         </div>
       </div>
+      <Container>
+        <div className="social-media-icons d-flex justify-content-evenly">
+          <a href="https://www.facebook.com/ucsdcirclek/">
+            <FontAwesomeIcon icon ={faFacebook}/>
+          </a>
+          <a href="https://discord.com/invite/Rvr2JEjpaY">
+            <FontAwesomeIcon icon ={faDiscord}/>
+          </a>
+          <a href="https://www.instagram.com/ucsdcirclek/">
+            <FontAwesomeIcon icon ={faInstagram}/>
+          </a>
+        </div>
+      </Container>
       <img src = {masthead} alt = "masthead" className = "masthead"/>
     </div>
   );

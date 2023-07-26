@@ -14,7 +14,6 @@
     text-align: center;
   }
   
-  
   .question{
     white-space: nowrap;
   }
@@ -48,6 +47,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    white-space: nowrap;
   }
   
   .join-info{
@@ -59,9 +59,26 @@
     align-items: center;
     gap: 100px;
   }
-  
+
+  .button{
+    background-color: #D4D4D4;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 250px;
+  }
+
+  .button:hover{
+    text-decoration: underline;
+  }
+
+  .social-media-icons a{
+    color: black;
+    font-size: 2rem;
+  }
+
   .masthead{
-    margin-top: 200px;
     max-width: 100%;
     max-height: calc(100vw * 0.095);
   }

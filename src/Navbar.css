@@ -103,7 +103,13 @@
 }
 
 .login-btn{
-    background-color: gray;
+    background-color: transparent;
     border: none;
-    font-size: 16px;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.login-btn:hover{
+    text-decoration: underline;
 }

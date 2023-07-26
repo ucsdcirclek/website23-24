@@ -2,7 +2,7 @@ import "./Calendar.css"
 
 function Calendar() {
     return (
-      <h1 class = "Calendar"> Calendar!</h1>
+      <p className = "Calendar"> Calendar!</p>
     );
   }
   

@@ -1,17 +1,19 @@
-    .welcome-message{
-    text-align: center;
-  }
-  
   .group-container{
-    display: flex;
+   display: flex;
     justify-Content: center;
     align-items: center;
-  }
+  } 
+
   .group-pic{
     margin-top: 150px;
     max-width: 80%;
     max-height: 80%;
   }
+
+  .welcome-message{
+    text-align: center;
+  }
+  
   
   .question{
     white-space: nowrap;

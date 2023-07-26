@@ -1,6 +1,8 @@
 import "./Join.css"
 
 function Join() {
-    return <h1 class = "join"> Join!</h1>;
+    return (
+      <p className = "join-page"> Join!</p>
+    );
   }
   export default  Join;

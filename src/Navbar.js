@@ -11,6 +11,7 @@ function Navbar() {
           <button className="about-btn">About</button>
           <div className="about-menu">
             <Link to="/mission_values">Mission/Values</Link>
+            <Link to="/history">CKI history</Link>
             <Link to="/board">Board</Link>
             <Link to="/big_little">Big/Little</Link>
             <Link to="/fams">Fams</Link>

@@ -8,6 +8,7 @@
     display: flex;
     width: 100%; 
     margin-top: none;
+    z-index: 999;
 }
 
 .cki-logo {

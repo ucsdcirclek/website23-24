@@ -2,7 +2,9 @@ import "./HSChange.css"
 
 function HSChange() {
     return (
-      <p className = "HSChange"> HSChange!</p>
+      <div>
+        <p className = "HSChange"> HSChange!</p>
+      </div>
     );
   }
   

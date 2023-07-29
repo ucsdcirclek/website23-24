@@ -1,6 +1,6 @@
-import "./History.css"
+import "./General.css"
 
-function History() {
+function General() {
     return (
       <p className = "History"> History of Kiwanis/CKI</p>
     );

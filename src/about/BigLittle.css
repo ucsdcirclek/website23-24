@@ -1,4 +1,57 @@
 .BigLittle{
-    color: black;
-    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.toBeA {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.leftSide {
+    border: 1px solid #000;
+    padding: 50px;
+  }
+  
+.rightSide {
+    border: 1px solid #000;
+    padding: 50px;
+  }
+
+.photos {
+    border: 2px solid #000;
+    margin-top: 20px;
+    width: 100%;
+}
+.photoTitle {
+    text-align: center;
+    -webkit-text-fill-color: blue;
+    font-size: 20px;
+}
+
+.imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+.imageGallery img {
+    max-width: 500px; /* Adjust the maximum width as per your preference */
+    max-height: 250px; /* Adjust the maximum height as per your preference */
+    margin: 10px;
 }

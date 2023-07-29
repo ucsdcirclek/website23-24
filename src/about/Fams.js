@@ -23,14 +23,11 @@ function Fams() {
       <div className="FamLogos">
         <p className="famLogoTitle">2022-23 Fams</p>
         <div className="famNames">
-          {/* Render the fam names in the first row */}
           {famNames.map((name, index) => (
             <p key={index} className="famName">{name}</p>
           ))}
         </div>
-
         <div className="famLogos">
-          {/* Render the fam logos in the second row */}
           {famsImages.map((imageUrl, index) => (
             <img key={index} src={imageUrl} alt={`Fams Image ${index}`} />
           ))}

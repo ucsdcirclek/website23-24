@@ -14,7 +14,8 @@
 .cki-logo {
     max-width: 150px;
     max-height: 150px;
-    margin-right: 250px;
+    /*margin-right: 250px;*/
+    margin-left: 30px;
 }
 
 .welcome-message {
@@ -109,6 +110,7 @@
     color: white;
     font-size: 28px;
     text-decoration: none;
+    margin-right: 30px;
 }
 
 .login-btn:hover{

@@ -1,4 +1,26 @@
-.Board{
+.board-members {
+    text-align: center;
     color: black;
     padding-top: 150px;
-}
+  }
+  
+  .card {
+    border: 0px;
+    padding: 20px;
+    width: 250px; /* You can adjust this value to resize the card width */
+    margin: 10px; /* You can adjust this value to add spacing between cards */
+    display: inline-block;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  
+  .card p {
+    margin: 8px 0;
+  }

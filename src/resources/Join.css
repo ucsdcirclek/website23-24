@@ -1,4 +1,24 @@
-.join-page{
-    color: black;
+.join-page {
+    text-align: center; 
+    margin: auto; 
+    max-width: 600px; 
     padding-top: 150px;
-}
+  }
+  
+  .requirements {
+    margin-top: 20px; 
+  }
+  
+  .requirements ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .requirements li {
+    margin-bottom: 10px; 
+  }
+  
+  .icon {
+    margin-right: 5px; 
+  }
+  

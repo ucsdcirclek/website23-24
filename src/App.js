@@ -9,7 +9,7 @@ import BigLittle from "./about/BigLittle"
 import Board from "./about/Board"
 import Fams from "./about/Fams"
 import MissionValues from "./about/MissionValues"
-import Calendar from "./calendar/Calendar"
+import CKCalendar from "./calendar/CKCalendar"
 import Login from "./Login"
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
               <Route path="/board" element={<Board />}></Route>
               <Route path="/fams" element={<Fams />}></Route>
               <Route path="/mission_values" element={<MissionValues />}></Route>
-              <Route path="/calendar" element={<Calendar/>}></Route>
+              <Route path="/calendar" element={<CKCalendar/>}></Route>
               <Route path="/login" element={<Login/>}></Route>
           </Routes>
       </div>

@@ -9,7 +9,7 @@ function CKCalendar() {
     return (
       <div class = "calendar">
         <FullCalendar
-        aspectRatio={1.5}
+        aspectRatio={2.2}
         contentHeight={700}
         plugins={[dayGridPlugin, googleCalendarPlugin]}
         initialView='dayGridMonth'

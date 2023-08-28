@@ -1,4 +1,19 @@
 .HSChange{
     color: black;
-    padding-top: 150px;
+    padding-top: 175px;
+    text-align:center;
+    padding-bottom: 50px;
+}
+
+.items{
+    text-align: center;
+}
+
+.about{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.venmo{
+    font-size: 20px;
 }

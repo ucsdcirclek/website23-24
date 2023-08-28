@@ -8,7 +8,7 @@ function HSChange() {
         <img src = {qrcode}></img>
         <div class = "paragraphs">
           <p class = "about">We support the organization Pediatric Trauma Program (PTP)!</p>
-          <p class = "venmo">Venmo: @UcsdCircleK</p>
+          <p class = "venmo">Venmo: @UCSDCircleK</p>
         </div>
       </div>
     );

@@ -25,11 +25,13 @@ function BigLittle() {
         <div className="leftSide">
           <p>To be a big, you must meet the following requirements:</p>
           <p>- Due paying member</p>
-          <p>- ??????</p>
+          <p>- At least 1 year in Circle K?</p>
+          <p>- Fill out Big Application</p>
         </div>
         <div className="rightSide">
           <p>To be a little, you must meet the following requirements:</p>
           <p>- Due paying member</p>
+          <p>- Fill out Little Application</p>
         </div>
       </div>
       <div className="photos">

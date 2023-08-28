@@ -36,21 +36,22 @@ function Board() {
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Michelle Bach</h3>
-            <p>VP Service</p>
-            <p>Major: Cognitive Science in Clinical Aspects</p>
-            <p>3rd Year</p>
+            <h3>Chris Pratt</h3>
+            <p>President</p>
+            <p>He rules!</p>
+            <p>1st year</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Chris Pratt</h3>
-            <p>President</p>
-            <p>He rules!</p>
-            <p>5th year</p>
+            <h3>Jenny Tran</h3>
+            <p>Member Research & Development</p>
+            <p>Biochemistry</p>
+            <p>4th Year</p>
           </div>
         </div>
+
 
         <h2>Appointed Board</h2>
         <div className="card">

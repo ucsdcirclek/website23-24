@@ -16,6 +16,7 @@ function App() {
   return (
     <div className = "app">
         <Navbar/>
+          <div className ="body">
            <Routes>
               <Route path="/" element={<Home/>}></Route>
               <Route path="/join" element={<Join />}></Route>
@@ -28,7 +29,8 @@ function App() {
               <Route path="/mission_values" element={<MissionValues />}></Route>
               <Route path="/calendar" element={<CKCalendar/>}></Route>
               <Route path="/login" element={<Login/>}></Route>
-          </Routes>
+            </Routes>
+          </div>
       </div>
   );
 }

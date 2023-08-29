@@ -11,7 +11,7 @@ function Board() {
           <div>
             <h3>Darwin Yu</h3>
             <p>President</p>
-            <p>Major:   Cognitive Behavioral Neuroscience</p>
+            <p>Major: Cognitive Behavioral Neuroscience</p>
             <p>3rd Year</p>
           </div>
         </div>

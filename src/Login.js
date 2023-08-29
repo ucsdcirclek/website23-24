@@ -1,6 +1,6 @@
 import "./Login.css"
 function Login() {
-    return <p className = "login"> Login!</p>;
+    return <h1 className = "login"> Work in Progress..</h1>;
   }
   
   export default  Login;

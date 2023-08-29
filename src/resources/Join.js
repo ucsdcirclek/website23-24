@@ -27,7 +27,7 @@ function Join() {
         <h3>Benefits:</h3>
         <p>Become part of the Big Little Pairings!</p>
         <p>Join a Fam!</p>
-        <p>Get priority for ridesand event registrations?</p>
+        <p>Get priority for rides and event registrations?</p>
       </div>
     </div>
   );

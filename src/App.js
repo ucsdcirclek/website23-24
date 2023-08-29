@@ -11,6 +11,7 @@ import Fams from "./about/Fams"
 import MissionValues from "./about/MissionValues"
 import CKCalendar from "./calendar/CKCalendar"
 import Login from "./Login"
+import './App.css';
 
 function App() {
   return (

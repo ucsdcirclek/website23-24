@@ -20,7 +20,7 @@ function Navbar() {
         <div className="resources-div">
           <button className="resources-btn">Resources</button>
           <div className="resources-menu">
-            <Link to="/happy_sad_change">Happy Sad Change</Link>
+            <Link to="/happy_sad_change">Happy/Sad Change</Link>
             <Link to="/gallery">Photo Gallery</Link>
             <Link to="/join">How to Join?</Link>
             <Link to="/suggestions">Suggestions</Link>

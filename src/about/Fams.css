@@ -25,7 +25,7 @@
 .famNames {
     display: flex;
     justify-content: space-between;
-    width: 80%; /* Adjust the width to control the spacing between names */
+    width: 60%; /* Adjust the width to control the spacing between names */
     margin: 10px auto; /* Adjust the margins as per your preference */
   }
   
@@ -37,7 +37,7 @@
 .famLogos {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 60%;
     margin: 10px auto;
   }
   

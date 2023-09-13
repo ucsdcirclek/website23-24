@@ -4,8 +4,8 @@ import wk6cats from "../images/service/fa22_wk6_cats.jpg";
 import wk7interclub from "../images/service/fa22_wk7_interclub.jpg";
 import wk8painting from "../images/service/wi23_wk8_painting.JPG";
 
-const famsImages = [wk6cats, wk7interclub, wk8painting];
-const famNames = ["Spy x fam", "Bagel Bunch", "Im not sure"]
+const famsImages = [wk6cats, wk7interclub];
+const famNames = ["Bodacious Baddies", "Cowabunga Crew"]
 
 function Fams() {
   return (
@@ -14,10 +14,10 @@ function Fams() {
         <p className="About CKI Fams!">What are fams?</p>
         <p>
           What are fams? Hell if I know, mine died about 3 days in. Well in all seriousness, maybe Jason & Jennie can
-          save me soon with a better description of "fams". But here I go- fams are meant to be a way to increase club engagment.
-          We randomly place members into one of three "fams", each with their own theme and name. Each fam has two "fam heads".
-          These fam heads plan activities for the fam to do together. We also have (or rather will soon be having) fam competitions(?).
-          Fams also do X, Y, and Z
+          save me soon with a better description of "fams". But here I go- fams are meant to be a way to increase club engagment and provide 
+          a more personal bonding experience in Circle K. Fam heads choose Circle K members to be join their fams, each with their own theme and name. 
+          Each fam has two "fam heads", who plan activities for the fam to do together. We also have (or rather will soon be having) fam competitions(?).
+          Fams also do X, Y, and Z.
         </p>
       </div>
       <div className="FamLogos">

@@ -7,7 +7,7 @@ function Navbar() {
     <div className="main">
         <img className="cki-logo" src={ckilogo} alt="ckilogo" />
         <Link className = "welcome-message" to="/">Circle K at UCSD</Link>
-        <div className="about">
+        <div className="about-div">
           <button className="about-btn">About</button>
           <div className="about-menu">
             <Link to="/mission_values">Mission/Values</Link>
@@ -17,7 +17,7 @@ function Navbar() {
           </div>
         </div>
         <Link className="calendar-btn" to ="/calendar">Calendar</Link>
-        <div className="resources">
+        <div className="resources-div">
           <button className="resources-btn">Resources</button>
           <div className="resources-menu">
             <Link to="/happy_sad_change">Happy Sad Change</Link>

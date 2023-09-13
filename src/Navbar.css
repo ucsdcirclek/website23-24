@@ -4,21 +4,20 @@
     background: #27285C;
     align-items: center;
     color: white;
-    font-size: 24px;
     display: flex;
-    width: 100%; 
+    width: 100vw; 
     z-index: 999;
     top: 0;
 }
 
 .cki-logo {
-    max-width: 150px;
-    max-height: 150px;
-    margin-left: 30px;
+    max-width: 10%;
+    max-height: 10%;
+    margin-left: 2.5%;
 }
 
 .welcome-message {
-    font-size: 32px;
+    font-size: 5vw;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-decoration: none;
@@ -32,27 +31,25 @@
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 28px;
-    margin-left: 50px;
-    padding-bottom: 20px;
+    font-size: 2.5vw;
+    margin-left: 5%;
 }
  
 .about-menu a{
     display: block;
-    margin-left: 50px;
-    font-size: 16px;
+    margin-left: 5%;
+    font-size: 1.5vw;
     background-color: white;
 }
 
 .about-menu{
     position: absolute;
-    overflow: hidden;
     display: none;
 }
 
-.about:hover .about-menu{
+.about-div:hover .about-menu{
     display:block;
-}
+} 
 
 .about-btn:hover {
     text-decoration: underline;
@@ -61,8 +58,7 @@
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 28px;
-    margin-left: 50px;
+    font-size: 2.5vw;
     text-decoration: none;
 }
 
@@ -74,8 +70,8 @@
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 28px;
-    margin-left: 50px;
+    font-size: 2.5vw;
+    margin-left: 5%;
 }
 
 .resources-btn:hover{
@@ -84,12 +80,12 @@
 
 .resources-menu a{
     display: block;
-    margin-left: 50px;
-    font-size: 16px;
+    margin-left: 5%;
+    font-size: 1.5vw;
     background-color: white;
 }
 
-.resources:hover .resources-menu{
+.resources-div:hover .resources-menu{
     display:block;
 }
 
@@ -102,9 +98,9 @@
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 28px;
+    font-size: 2.5vw;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 2.5%;
 }
 
 .login-btn:hover{

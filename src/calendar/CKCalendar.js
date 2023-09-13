@@ -7,7 +7,7 @@ import dayGridPlugin from '@fullcalendar/daygrid'
 
 function CKCalendar() {
     return (
-      <div class = "calendar">
+      <div class = "ck-calendar">
         <FullCalendar
         aspectRatio={1.5}
         contentHeight={700}

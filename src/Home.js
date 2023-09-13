@@ -28,7 +28,7 @@ function Home() {
           <Link to="/join" className = "button">Click here!</Link>
         </div>
         <div className = "info">
-          <p> Want to learn more about Circle K International?</p>
+          <p> Want to learn more about Circle K?</p>
           <Link to="/mission_values" className = "button">Click here!</Link>
         </div>
       </div>

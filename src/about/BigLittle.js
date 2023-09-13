@@ -13,7 +13,7 @@ function BigLittle() {
       <div className="mainText">
         <p className="whatIsBL">What is the Big-Little Mentorship Program?</p>
         <p>
-          What is our Big/Little program? I'm not sure how to describe it.
+          I'm not sure how to describe it.
           Hopefully Jennie & Jason can send me something soon to explain it
           better. The best way I can put it is.... hmm. Well, a new member
           would become a "little", while a returning member would be a "big".

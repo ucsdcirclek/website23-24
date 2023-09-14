@@ -1,5 +1,4 @@
 import "./BigLittle.css";
-import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import wk6cats from "../images/service/fa22_wk6_cats.jpg";
 import wk7interclub from "../images/service/fa22_wk7_interclub.jpg";
@@ -38,7 +37,7 @@ function BigLittle() {
         <p className="photoTitle">Some photos of Bigs & Littles</p>
       <div className="imageGallery">
           {bigLittleImages.map((imageUrl, index) => (
-            <img key={index} src={imageUrl} alt={`Big-Little Image ${index}`} />
+            <img key={index} src={imageUrl} alt={`Big-Little Pic ${index}`} />
           ))}
         </div>
       </div>

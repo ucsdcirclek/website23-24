@@ -27,7 +27,7 @@ function Fams() {
         </div>
         <div className="famLogos">
           {famsImages.map((imageUrl, index) => (
-            <img key={index} src={imageUrl} alt={`Fams Image ${index}`} />
+            <img key={index} src={imageUrl} alt={`Fams Pic ${index}`} />
           ))}
         </div>
       </div>

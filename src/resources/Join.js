@@ -1,7 +1,5 @@
 import {Link} from "react-router-dom";
 import "./Join.css"; // Make sure you have the Join.css file with the appropriate styles.
-import CKCalendar from "../calendar/CKCalendar"
-
 
 function Join() {
   return (

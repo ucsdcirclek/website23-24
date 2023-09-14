@@ -1,6 +1,5 @@
 import "./CKCalendar.css"
 import FullCalendar from '@fullcalendar/react'
-import { Calendar } from '@fullcalendar/core'
 import googleCalendarPlugin from '@fullcalendar/google-calendar'
 import dayGridPlugin from '@fullcalendar/daygrid'
 
@@ -21,15 +20,6 @@ function CKCalendar() {
       />
       </div>
     );
-}
-
-function renderEventContent(eventInfo) {
-  return (
-    <>
-      <b>{eventInfo.timeText}</b>
-      <i>{eventInfo.event.title}</i>
-    </>
-  )
 }
   
   export default CKCalendar;

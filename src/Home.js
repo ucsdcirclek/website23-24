@@ -1,10 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container} from "react-bootstrap"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faFacebook, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import './Home.css';
 import grouppic from "./images/group-photo-cki.jpeg"
-import masthead from "./images/White+Masthead.png"
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -32,20 +28,6 @@ function Home() {
           <Link to="/mission_values" className = "button">Click here!</Link>
         </div>
       </div>
-      <Container>
-        <div className="social-media-icons d-flex justify-content-evenly">
-          <a href="https://www.facebook.com/ucsdcirclek/">
-            <FontAwesomeIcon icon ={faFacebook}/>
-          </a>
-          <a href="https://discord.com/invite/Rvr2JEjpaY">
-            <FontAwesomeIcon icon ={faDiscord}/>
-          </a>
-          <a href="https://www.instagram.com/ucsdcirclek/">
-            <FontAwesomeIcon icon ={faInstagram}/>
-          </a>
-        </div>
-      </Container>
-      <img src = {masthead} alt = "masthead" className = "masthead"/>
     </div>
   );
 }

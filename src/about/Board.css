@@ -7,7 +7,7 @@
   .card {
     border: 0px;
     padding: 20px;
-    width: 250px; /* You can adjust this value to resize the card width */
+    width: 300px; /* You can adjust this value to resize the card width */
     margin: 10px; /* You can adjust this value to add spacing between cards */
     display: inline-block;
   }

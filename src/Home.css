@@ -76,12 +76,5 @@
     text-decoration: underline;
   }
 
-  .social-media-icons a{
-    color: black;
-    font-size: 2rem;
-  }
+ 
 
-  .masthead{
-    max-width: 100%;
-    max-height: calc(100vw * 0.095);
-  }

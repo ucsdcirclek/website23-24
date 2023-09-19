@@ -11,8 +11,9 @@ function Board() {
           <div>
             <h3>Darwin Yu</h3>
             <p>President</p>
-            <p>Major: Cognitive Behavioral Neuroscience</p>
+            <p style={{ whiteSpace: 'nowrap' }}>Cognitive Behavioral Neuroscience</p>
             <p>3rd Year</p>
+            <p>president@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
@@ -20,8 +21,9 @@ function Board() {
           <div>
             <h3>Tuan Ha</h3>
             <p>Secretary</p>
-            <p>Major: Human Bio</p>
+            <p>Human Bio</p>
             <p>3rd Year</p>
+            <p>secretary@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
@@ -29,17 +31,42 @@ function Board() {
           <div>
             <h3>Blake Sharp</h3>
             <p>Treasurer</p>
-            <p>Major: Math</p>
+            <p>Math</p>
             <p>2nd Year</p>
+            <p>treasurer@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Chris Pratt</h3>
-            <p>President</p>
-            <p>He rules!</p>
-            <p>1st year</p>
+            <h3>Dania Santiago</h3>
+            <p>VP Administration</p>
+            <p>?</p>
+            <p>3rd Year</p>
+            <p>vpa@ucsdcki.org</p>
+          </div>
+        </div>
+        <div className="card">
+          <img src={placehold} alt="guy" />
+          <div>
+            <h3>Michelle Bach</h3>
+            <p>VP Service</p>
+            <p>Biochemistry</p>
+            <p>4th Year</p>
+            <p>vps@ucsdcki.org</p>
+          </div>
+        </div>
+
+
+        <h2>Appointed Board</h2>
+        <div className="card">
+          <img src={placehold} alt="guy" />
+          <div>
+            <h3>Akhil</h3>
+            <p>Tech Chair</p>
+            <p>Cognitive Science</p>
+            <p>4th Year</p>
+            <p>technology@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
@@ -49,66 +76,39 @@ function Board() {
             <p>Member Research & Development</p>
             <p>Biochemistry</p>
             <p>4th Year</p>
-          </div>
-        </div>
-
-
-        <h2>Appointed Board</h2>
-        <div className="card">
-          <img src={placehold} alt="guy" />
-          <div>
-            <h3>Chris Pratt</h3>
-            <p>President</p>
-            <p>He rules!</p>
-            <p>1st year</p>
+            <p>mr@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Chris Pratt</h3>
-            <p>President</p>
-            <p>He rules!</p>
-            <p>2nd year</p>
+            <h3>Jason Ang</h3>
+            <p>Member Research & Development</p>
+            <p>Literature & Writing</p>
+            <p>4th Year</p>
+            <p>mr@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Chris Pratt</h3>
-            <p>President</p>
-            <p>He rules!</p>
-            <p>3rd year</p>
+            <h3>Amy Kavi</h3>
+            <p>Service Chair</p>
+            <p>Neurobiology</p>
+            <p>3rd Year</p>
+            <p>service@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Chris Pratt</h3>
-            <p>President</p>
-            <p>He rules!</p>
-            <p>4th year</p>
+            <h3>Enrique Espinoza</h3>
+            <p>Service Chair</p>
+            <p>Human Biology</p>
+            <p>3rd Year</p>
+            <p>service@ucsdcki.org</p>
           </div>
         </div>
-        <div className="card">
-          <img src={placehold} alt="guy" />
-          <div>
-            <h3>Chris Pratt</h3>
-            <p>President</p>
-            <p>He rules!</p>
-            <p>5th year</p>
-          </div>
-        </div>
-        <div className="card">
-          <img src={placehold} alt="guy" />
-          <div>
-            <h3>Chris Pratt</h3>
-            <p>President</p>
-            <p>He rules!</p>
-            <p>6th year</p>
-          </div>
-        </div>
-
       </div>
     );
   }

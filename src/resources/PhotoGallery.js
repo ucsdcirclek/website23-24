@@ -14,17 +14,17 @@ import wk5farm from "../images/social/fa22_wk5_farm.jpg"
 
 const handleDragStart = (e) => e.preventDefault();
 const serviceItems = [
-  <img class = "img" src= {wk6cats} onDragStart={handleDragStart} role="presentation" />,
-  <img class = "img" src= {wk7interclub} onDragStart={handleDragStart} role="presentation" />,
-  <img class = "img" src= {wk8painting} onDragStart={handleDragStart} role="presentation" />,
-  <img class = "img" src= {wk1painting} onDragStart={handleDragStart} role="presentation" />,
-  <img class = "img" src= {wk1beach} onDragStart={handleDragStart} role="presentation" />,
+  <img class = "img" src= {wk6cats} onDragStart={handleDragStart} alt="cats" />,
+  <img class = "img" src= {wk7interclub} onDragStart={handleDragStart} alt="interclub"  />,
+  <img class = "img" src= {wk8painting} onDragStart={handleDragStart} alt="painting"  />,
+  <img class = "img" src= {wk1painting} onDragStart={handleDragStart} alt="painting"  />,
+  <img class = "img" src= {wk1beach} onDragStart={handleDragStart} alt="beach"  />,
 
 ];
 
 const socialItems = [
-  <img class = "img" src= {wk1canes} onDragStart={handleDragStart} role="presentation" />,
-  <img class = "img" src= {wk5farm} onDragStart={handleDragStart} role="presentation" />
+  <img class = "img" src= {wk1canes} onDragStart={handleDragStart} alt="canes" />,
+  <img class = "img" src= {wk5farm} onDragStart={handleDragStart} alt="farm" />
 ];
 
 const responsive = {

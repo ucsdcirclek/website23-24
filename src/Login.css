@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -103,10 +102,4 @@ button {
 
 .line {
     display: inline-block;
-=======
-.login{
-    color: black;
-    padding-top: 15%;
-    text-align: center;
->>>>>>> parent of cde6f5f (added log in/register stuff that needs to be finished soon)
 }

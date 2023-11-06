@@ -1,25 +1,26 @@
 import "./Fams.css"
 import 'react-alice-carousel/lib/alice-carousel.css';
-import wk6cats from "../images/service/fa22_wk6_cats.jpg";
-import wk7interclub from "../images/service/fa22_wk7_interclub.jpg";
+import ccfam from "../images/social/fams/R435029769_alexander_gao_MP1_PROOF_V2 (2)-1.png";
+import bbfam from "../images/social/fams/final poster-1.png";
 
-const famsImages = [wk6cats, wk7interclub];
-const famNames = ["Bodacious Baddies", "Cowabunga Crew"]
+const famsImages = [ccfam, bbfam];
+const famNames = [ "Cowabunga Crew", "Bodacious Baddies"]
 
 function Fams() {
   return (
     <div className="Fams">
       <div className="mainText">
-        <p className="About CKI Fams!">What are fams?</p>
+        <p className="About_CKI_Fams">What is the Fam System?</p>
         <p>
-          What are Fams? Hell if I know, mine died about 3 days in. Well in all seriousness, maybe Jason & Jennie can
-          save me soon with a better description of "fams". But here I go- fams are a way to increase club engagment and provide 
-          a more personal bonding experience in Circle K. Fam heads choose Circle K members to be join their fams, each with their own theme and name. 
-          Each fam has two "fam heads", who plan activities for the fam to do together. Each fam was also go head to head in friendly inter-fam competitions(?).
+          Fams are a way for members to attend more personal events with other handpicked members by their fam heads!
+          This includes things like socials, fam-only service events, picnics, interfam events and anything else! 
+          Also, there will be quarterly interfam competitions, where the most active fam (attending the most events and 
+          participating) will receive a prize!
+          
         </p>
       </div>
       <div className="FamLogos">
-        <p className="famLogoTitle">2023-24 Fams</p>
+        <p className="famLogoTitle">2023-24 Fams!</p>
         <div className="famNames">
           {famNames.map((name, index) => (
             <p key={index} className="famName">{name}</p>

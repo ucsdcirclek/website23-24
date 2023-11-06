@@ -62,9 +62,9 @@ function Board() {
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Akhil</h3>
+            <h3>Alex Gao</h3>
             <p>Tech Chair</p>
-            <p>Cognitive Science</p>
+            <p>Computer Science</p>
             <p>4th Year</p>
             <p>technology@ucsdcki.org</p>
           </div>

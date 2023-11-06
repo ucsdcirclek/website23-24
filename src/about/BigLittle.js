@@ -1,10 +1,10 @@
 import "./BigLittle.css";
 import 'react-alice-carousel/lib/alice-carousel.css';
-import wk6cats from "../images/service/fa22_wk6_cats.jpg";
-import wk7interclub from "../images/service/fa22_wk7_interclub.jpg";
-import wk8painting from "../images/service/wi23_wk8_painting.JPG";
+import bl1 from "../images/social/IMG_6982.jpg";
+import bl2 from "../images/social/IMG_8351.jpg";
+import bl3 from "../images/social/image000001.jpg";
 
-const bigLittleImages = [wk6cats, wk7interclub, wk8painting];
+const bigLittleImages = [bl1,bl2,bl3];
 
 function BigLittle() {
   return (
@@ -12,24 +12,23 @@ function BigLittle() {
       <div className="mainText">
         <p className="whatIsBL">What is the Big-Little Mentorship Program?</p>
         <p>
-          I'm not sure how to describe it.
-          Hopefully Jennie & Jason can send me something soon to explain it
-          better. The best way I can put it is.... hmm. Well, a new member
-          would become a "little", while a returning member would be a "big".
-          It is sort of a program to connect members in a way that they can
-          help each other out.
+          The Big-Little Mentorship Program is your chance to get to meet someone
+          in Circle K who you can bond with, hang out with, and grow with. For 
+          returning members, they can apply to be bigs and mentor newer members
+          in a personal sense. For new members, they can apply to be littles and 
+          become closer with their bigs in Circle K!
         </p>
       </div>
       <div className="toBeA">
         <div className="leftSide">
           <p>To be a big, you must meet the following requirements:</p>
-          <p>- Due paying member</p>
-          <p>- At least 1 year in Circle K?</p>
+          <p>- Dues paying member</p>
+          <p>- At least 1 year in Circle K</p>
           <p>- Fill out Big Application</p>
         </div>
         <div className="rightSide">
           <p>To be a little, you must meet the following requirements:</p>
-          <p>- Due paying member</p>
+          <p>- Dues paying member</p>
           <p>- Fill out Little Application</p>
         </div>
       </div>

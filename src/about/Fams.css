@@ -6,6 +6,11 @@
 .mainText {
     border: 2px solid #000;
   }
+
+.About_CKI_Fams{
+  font-size: 20px;
+  font-weight: bold;
+}
   
 .FamLogos {
     border: 2px solid #000;
@@ -19,6 +24,7 @@
 .famLogoTitle {
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
   }
   
 .famNames {
@@ -41,7 +47,7 @@
   }
   
 .famLogos img {
-    max-width: 100px; 
-    max-height: 100px;
+    max-width: 600px; 
+    max-height: 300px;
   }
   

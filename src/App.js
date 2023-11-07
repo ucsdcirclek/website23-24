@@ -11,8 +11,8 @@ import Fams from "./about/Fams";
 import MissionValues from "./about/MissionValues";
 import CKCalendar from "./calendar/CKCalendar";
 import masthead from "./images/White+Masthead.png";
-import Register from './Register';
 import Login from "./Login";
+import Register from "./Register"
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -40,6 +40,7 @@ function App() {
           <Route path="/mission_values" element={<MissionValues />}></Route>
           <Route path="/calendar" element={<CKCalendar />}></Route>
           <Route path="/login" element={<Login />}></Route>
+          <Route path="/register" element={<Register />}></Route>
         </Routes>
       </div>
       <Container>

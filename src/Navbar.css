@@ -1,46 +1,52 @@
-.main {
+/*.main {
     justify-content: space-between;
     position: fixed;
     background: #27285C;
     align-items: center;
-    color: white;
+    color: black;
     display: flex;
     width: 100vw; 
     z-index: 999;
     top: 0;
 }
+*/
 
 .cki-logo {
-    max-width: 10%;
-    max-height: 10%;
-    margin-left: 2.5%;
+    max-width: 25%;
+    max-height: 25%;
+    margin-left: 3%;
+    margin-right: 6%;
 }
 
-.welcome-message {
-    font-size: 5vw;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    text-decoration: none;
+.navbar-brand{
+    font-size: 28px;
 }
 
-.welcome-message:hover{
+.navbar-brand:hover{
     text-decoration: underline;
 }
+
+.navbar-toggler {
+    margin-top: 10px;
+    font-size: 0.5rem; 
+}
+
+.navbar-toggler[aria-expanded="true"] + .collapse.navbar-collapse {
+    flex-direction: row;
+  }
 
 .about-btn{
     background-color: transparent;
     border: none;
-    color: white;
-    font-size: 2.5vw;
-    margin-left: 5%;
+    color: black;
+    font-size: 1.3rem;
 }
  
 .about-menu a{
     text-overflow: none;
     display: block;
-    margin-left: 5%;
     font-size: 1.2vw;
-    background-color: white;
+    background-color: black;
 }
 
 .about-menu{
@@ -58,8 +64,8 @@
 .calendar-btn{
     background-color: transparent;
     border: none;
-    color: white;
-    font-size: 2.5vw;
+    color: black;
+    font-size: 1.3rem;
     text-decoration: none;
 }
 
@@ -70,9 +76,8 @@
 .resources-btn{
     background-color: transparent;
     border: none;
-    color: white;
-    font-size: 2.5vw;
-    margin-left: 5%;
+    color: black;
+    font-size: 1.3rem;
 }
 
 .resources-btn:hover{
@@ -82,9 +87,8 @@
 .resources-menu a{
     text-overflow: none;
     display: block;
-    margin-left: 5%;
     font-size: 1.2vw;
-    background-color: white;
+    background-color: black;
 }
 
 .resources-div:hover .resources-menu{
@@ -99,10 +103,9 @@
 .login-btn{
     background-color: transparent;
     border: none;
-    color: white;
-    font-size: 2.5vw;
+    color: black;
+    font-size: 1.3rem;
     text-decoration: none;
-    margin-right: 2.5%;
 }
 
 .login-btn:hover{

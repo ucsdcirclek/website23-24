@@ -12,7 +12,8 @@ function Home() {
       <div className = "about-cki">
         <p className = "question">What is Circle K?</p>
         <p>Circle K International is the largest collegiate service organization worldwide, with over 13,000 members and 500 chapters!
-          We host all kinds of community service, social events, and more every quarter!
+          Our three tenets are service, leadership and fellowship! We host all kinds of local community service events, social events, and 
+          more with other parent organization Kiwanis!
         </p>
       </div>
       <div className = "calendar">

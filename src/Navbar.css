@@ -31,33 +31,33 @@
     font-size: 0.5rem; 
 }
 
-.about-btn{
+.about-btn, .resources-btn{
     background-color: transparent;
     border: none;
     color: black;
     font-size: 1.3rem;
 }
  
-.about-menu a{
+.about-menu a, .resources-menu a{
     text-overflow: none;
     display: block;
     font-size: 1rem;
     background-color: white;
 }
 
-.about-menu{
+.about-menu, .resources-menu{
     position: absolute;
     display: none;
 }
 
-.about-div:hover .about-menu{
+.about-div:hover .about-menu, .resources-div:hover .resources-menu{
     display:block;
 } 
 
-.about-btn:hover {
+.about-btn:hover, .resources-btn:hover {
     text-decoration: underline;
 }
-.calendar-btn{
+.calendar-btn, .login-btn{
     background-color: transparent;
     border: none;
     color: black;
@@ -65,48 +65,10 @@
     text-decoration: none;
 }
 
-.calendar-btn:hover{
+.calendar-btn:hover, .login-btn:hover{
     text-decoration: underline;
 }
 
-.resources-btn{
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-size: 1.3rem;
-}
-
-.resources-btn:hover{
-    text-decoration: underline;
-}
-
-.resources-menu a{
-    text-overflow: none;
-    display: block;
-    font-size: 1rem;
-    background-color: white;
-}
-
-.resources-div:hover .resources-menu{
-    display:block;
-}
-
-.resources-menu{
-    display:none;
-    position: absolute;
-}
-
-.login-btn{
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-size: 1.3rem;
-    text-decoration: none;
-}
-
-.login-btn:hover{
-    text-decoration: underline;
-}
 
 .navbar-toggler[aria-expanded="true"] + .collapse.navbar-collapse {
   display: flex;

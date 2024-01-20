@@ -14,18 +14,18 @@
   }
   
   .question{
-    font-size: 1.75vw;
+    font-size: 1.2rem;
     color:steelblue;
     white-space: nowrap;
+    text-align: center; 
   }
   
   .about-cki{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.25vw;
-    align-items: center;
+    font-size: 1rem;
+    text-align: center; 
     margin-left: 15%;
     margin-right: 15%;
-    display: flex;
     gap: 30px;
     margin-top: 50px;
     border: 2px solid #000;
@@ -34,7 +34,7 @@
   .calendar{
     margin-bottom: 10%;
     margin-top: 5%;
-    font-size: 5vw;
+    font-size: 2rem;
     text-align: center;
   }
   
@@ -54,21 +54,21 @@
   
   .join-info{
     justify-content:center;
-    font-size: 3vw;
+    font-size: 1rem;
     display:flex;
     margin-left: 15%;
     margin-right: 15%;
     align-items: center;
-    gap: 5%;
+    gap: 8%;
   }
 
   .button{
     background-color: #D4D4D4;
     color: black;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     border-radius: 5px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 
   .button:hover{

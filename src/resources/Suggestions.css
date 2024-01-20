@@ -1,10 +1,12 @@
 .suggestions{
     color: black;
-    padding-top: 15%;
+    padding-top: 3%;
     text-align: center;
     font-size: 25px;
 }
 
 .sug{
     text-align: center;
+    padding-bottom: 4%;
 }
+

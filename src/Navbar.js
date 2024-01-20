@@ -27,9 +27,9 @@ function Navbar() {
           <div className="about-div">
             <button className="about-btn">About</button>
             <div className="about-menu">
-              <Link to="/mission_values">Mission/Values</Link>
+              <Link to="/mission_values">Our Mission!</Link>
               <Link to="/board">Board</Link>
-              <Link to="/big_little">Big/Little</Link>
+              <Link to="/big_little">Big Little</Link>
               <Link to="/fams">Fams</Link>
             </div>
           </div>
@@ -39,9 +39,9 @@ function Navbar() {
           <div className="resources-div">
             <button className="resources-btn">Resources</button>
             <div className="resources-menu">
-              <Link to="/happy_sad_change">Happy/Sad Change</Link>
+              <Link to="/happy_sad_change">Happy Sad Change</Link>
               <Link to="/gallery">Photo Gallery</Link>
-              <Link to="/join">How to Join?</Link>
+              <Link to="/join">Want to Join?</Link>
               <Link to="/suggestions">Suggestions</Link>
             </div>
           </div>

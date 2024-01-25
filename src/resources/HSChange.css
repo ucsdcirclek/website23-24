@@ -9,12 +9,20 @@
 }
 
 .about{
-    margin-top: 25px;
-    padding-bottom: 30px;
+    margin-top: 3%;
+    padding-bottom: 4%;
     font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .venmo{
     font-size: 20px;
 
 }
+
+.HSPic{
+    max-height: 100%;
+    max-width: 100%;
+}
+

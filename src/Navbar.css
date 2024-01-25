@@ -11,6 +11,10 @@
 }
 */
 
+.dark-blue-bg {
+    background-color: #001f3f; /* You can replace this with your desired darker blue color */
+  }
+
 .cki-logo {
     max-width: 25%;
     max-height: 25%;
@@ -42,8 +46,20 @@
 .about-menu a, .resources-menu a{
     text-overflow: none;
     display: block;
+    text-decoration: none;
+    color: black;
     font-size: 1rem;
-    background-color: white;
+    background-color: #f8f9fa;
+    border: 1px solid #001f3f;
+    padding: 5px;
+    z-index: 999;
+}
+
+.about-menu a:hover,
+.resources-menu a:hover {
+    text-decoration: underline;
+    color: blue;
+    z-index: 999; 
 }
 
 .about-menu, .resources-menu{

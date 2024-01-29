@@ -2,8 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 import grouppic from "./images/group-photo-cki.jpeg"
 import { Link } from 'react-router-dom';
-import { useState } from "react";
+/*import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+*/
 
 function Home() {
   return (

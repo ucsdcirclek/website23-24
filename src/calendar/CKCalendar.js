@@ -14,7 +14,8 @@ function CKCalendar() {
         initialView='dayGridMonth'
         googleCalendarApiKey= "AIzaSyCzblwjGWGz2NJzQo_62A43dkd9r1wYYpM"
         events={
-            { googleCalendarId: "en.usa#holiday@group.v.calendar.google.com"
+            { googleCalendarId: "c_e988bdab8ce67babc72a6341c73871d98f7caa87e21967d08dc60354351c8c86@group.calendar.google.com",
+            location: 'Event Location 1',
             }
           }
       />
@@ -23,3 +24,5 @@ function CKCalendar() {
 }
   
   export default CKCalendar;
+
+  

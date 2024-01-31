@@ -41,7 +41,7 @@ function Board() {
           <div>
             <h3>Dania Santiago</h3>
             <p>VP Administration</p>
-            <p>?</p>
+            <p>Math/CS</p>
             <p>3rd Year</p>
             <p>vpa@ucsdcki.org</p>
           </div>

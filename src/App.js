@@ -21,6 +21,7 @@ import {
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
+import LoginForm from "./Components/LoginForm/LoginForm";
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
           <Route path="/fams" element={<Fams />}></Route>
           <Route path="/mission_values" element={<MissionValues />}></Route>
           <Route path="/calendar" element={<CKCalendar />}></Route>
-          <Route path="/login" element={<Login />}></Route>
+          <Route path="/login" element={<LoginForm />}></Route>
         </Routes>
       </div>
       <Container>

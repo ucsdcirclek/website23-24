@@ -3,6 +3,7 @@ import qrcode from "../images/misc/hsqrcode.jpeg"
 
 function HSChange() {
     return (
+      /*hi*/
       <div class = "items">
         <h1 className = "HSChange"> Happy Sad Change!</h1>
         <img className = "HSPic" src = {qrcode} alt="HSChange"></img>

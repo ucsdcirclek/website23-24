@@ -29,9 +29,9 @@ function Board() {
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Blake Sharp</h3>
+            <h3>Ramon Guerrero</h3>
             <p>Treasurer</p>
-            <p>Math</p>
+            <p>CS</p>
             <p>2nd Year</p>
             <p>treasurer@ucsdcki.org</p>
           </div>

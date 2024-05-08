@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import './LoginForm.css'
 import { FaUser, FaLock } from "react-icons/fa";
 
@@ -32,4 +32,4 @@ const LoginForm = () => {
   )
 }
 
-export default LoginForm
+export default LoginForm*/

@@ -9,7 +9,7 @@ function Board() {
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Darwin Yu</h3>
+            <h3>Erin Yamaoka</h3>
             <p>President</p>
             <p style={{ whiteSpace: 'nowrap' }}>Cognitive Behavioral Neuroscience</p>
             <p>3rd Year</p>
@@ -19,7 +19,7 @@ function Board() {
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Tuan Ha</h3>
+            <h3>Tyler Lenart</h3>
             <p>Secretary</p>
             <p>Human Bio</p>
             <p>3rd Year</p>

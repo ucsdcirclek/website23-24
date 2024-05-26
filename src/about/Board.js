@@ -21,8 +21,8 @@ function Board() {
           <div>
             <h3>Tyler Lenart</h3>
             <p>Secretary</p>
-            <p>Human Bio</p>
-            <p>3rd Year</p>
+            <p>Business</p>
+            <p>1st Year</p>
             <p>secretary@ucsdcki.org</p>
           </div>
         </div>
@@ -39,20 +39,20 @@ function Board() {
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Dania Santiago</h3>
+            <h3>Omar Salazar</h3>
             <p>VP Administration</p>
-            <p>Math/CS</p>
-            <p>3rd Year</p>
+            <p>Business Econ</p>
+            <p>1st Year</p>
             <p>vpa@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Michelle Bach</h3>
+            <h3>Desiree Menjivar</h3>
             <p>VP Service</p>
-            <p>Biochemistry</p>
-            <p>4th Year</p>
+            <p>Marine Bio</p>
+            <p>2nd Year</p>
             <p>vps@ucsdcki.org</p>
           </div>
         </div>
@@ -62,50 +62,60 @@ function Board() {
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Alex Gao</h3>
+            <h3>Katie Huggins</h3>
             <p>Tech Chair</p>
-            <p>Computer Science</p>
-            <p>4th Year</p>
+            <p>Neurobiology</p>
+            <p>1st Year</p>
             <p>technology@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Jenny Tran</h3>
+            <h3>Annalise Coaker</h3>
             <p>Member Research & Development</p>
-            <p>Biochemistry</p>
-            <p>4th Year</p>
+            <p>Microbiology</p>
+            <p>1st Year</p>
             <p>mr@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Jason Ang</h3>
-            <p>Member Research & Development</p>
-            <p>Literature & Writing</p>
-            <p>4th Year</p>
-            <p>mr@ucsdcki.org</p>
+            <h3>Ethan Truong</h3>
+            <p>Fundraising</p>
+            <p>Math CS</p>
+            <p>2nd Year</p>
+            <p>fundraising@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Amy Kavi</h3>
+            <h3>Emily Chang</h3>
             <p>Service Chair</p>
             <p>Neurobiology</p>
-            <p>3rd Year</p>
+            <p>1st Year</p>
             <p>service@ucsdcki.org</p>
           </div>
         </div>
         <div className="card">
           <img src={placehold} alt="guy" />
           <div>
-            <h3>Enrique Espinoza</h3>
+            <h3>Kelly Wu</h3>
+            <p>Media Chair</p>
+            <p>Business Economics</p>
+            <p>1st Year</p>
+            <p>media@ucsdcki.org</p>
+          </div>
+        </div>
+        <div className="card">
+          <img src={placehold} alt="guy" />
+          <div>
+            <h3>Junlin Ruan</h3>
             <p>Service Chair</p>
-            <p>Human Biology</p>
-            <p>3rd Year</p>
+            <p>Molecular & Cell Bio</p>
+            <p>1st Year</p>
             <p>service@ucsdcki.org</p>
           </div>
         </div>

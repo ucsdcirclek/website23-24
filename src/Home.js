@@ -20,7 +20,7 @@ function Home() {
         </p>
       </div>
       <div className = "calendar">
-        <p> Upcoming ur mom Calendar here! (up to 2 weeks)</p>
+        <p> All Upcoming Events Calendar here! (up to 2 weeks)</p>
       </div>
       <div className = "join-info">
         <div className = "join">
